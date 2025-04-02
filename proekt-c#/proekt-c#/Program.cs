@@ -21,18 +21,23 @@ namespace proekt_c_
 
             if (type == "Деление")
             {
-                Console.WriteLine(oneToInt / twoToInt);
+                Console.Write("Ответ: ");
+                Console.Write(oneToInt / twoToInt);
 
 
             } else if (type == "Умножение") {
-                Console.WriteLine(oneToInt * twoToInt);
+                Console.Write("Ответ: ");
+                Console.Write(oneToInt * twoToInt);
 
             } else if (type == "Сложение")
+
             {
-                Console.WriteLine(oneToInt + twoToInt);
+                Console.Write("Ответ: ");
+                Console.Write(oneToInt + twoToInt);
             } else if (type == "Вычитание")
             {
-                Console.WriteLine(oneToInt - twoToInt);
+                Console.Write("Ответ: ");
+                Console.Write(oneToInt - twoToInt);
             };
 
             Console.ReadLine();
